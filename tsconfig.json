@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["./Scripts/typings/**/*.d.ts", "**/*.d.ts"],
+    "target": "ES2020",
+    "sourceMap": false,
+    "strict": false,
+    "baseUrl": "./src/"
+  },
+  "include": ["src/**/*.ts", "./Scripts/typings/**/*.d.ts"]
+}
