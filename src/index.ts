@@ -163,7 +163,7 @@ handlers["handlePlayStreamEventAndProfile"] = HandlePlayStreamEventAndProfile;
 // code can write - it is read-only on the client - and it updates a player
 // statistic that can be used for leaderboards.
 //
-// A funtion like this could be extended to perform validation on the
+// A function like this could be extended to perform validation on the
 // level completion data to detect cheating. It could also do things like
 // award the player items from the game catalog based on their performance.
 var CompletedLevel = function (args: any, context: IPlayFabContext): void {
